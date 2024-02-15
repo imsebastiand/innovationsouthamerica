@@ -12,7 +12,7 @@ df = pd.read_csv('assets/southamericaworldbank.csv')
 
 import json
 
-with open('southamerica.json', 'r', encoding='utf-8') as file:
+with open('assets/southamerica.json', 'r', encoding='utf-8') as file:
     json_data = json.load(file)
     
 country_id_map = {}
