@@ -27,6 +27,8 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
 server = app.server
+
+app.title = 'Innovation in South America'
 app.layout = dbc.Container([
     dbc.Row(
         dbc.Col(html.H1("Innovation in South America - Inputs",
